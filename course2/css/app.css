@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'microsoft yahei ui';
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.login{
+    width: 80%;
+    margin: 0px auto;
+    /*background-color:red;*/
+    /*box-shadow: 0px 0px 50px blue;*/
+}
+.login h2{
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+}
+.login .tel input{
+    background-image: url("../img/user.png");
+}
+.login .password input{
+    background-image: url("../img/email.png");
+}
+.login .tel input,.login .password input{
+    font-family: 'Georgia';
+    letter-spacing: 2px;
+    font-size: 15px;
+    border: 1px gray solid;
+    width: 80%;
+    height: 50px;
+    padding-left: 55px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: 30px;
+}
+.login .class select{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+.sub button{
+    margin-top: 35px;
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    background-color: aqua;
+    -webkit-transition: ease 1ms;
+    -moz-transition: ease 1ms;
+    -ms-transition: ease 1ms;
+    -o-transition: ease 1ms;
+    transition: ease 1ms;
+    color: white;
+    font-size: 20px;
+}
+/*.sub button:hover{*/
+    /*background-color: white;*/
+    /*color: aqua;*/
+/*}*/
+.ps{
+    text-align: center;
+}
